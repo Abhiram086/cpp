@@ -5,8 +5,8 @@ template <typename T>
 class Stack {
 public:
     T* arr;
-    T top;
-    T max;
+     int top;
+    int max;
 
     Stack(int size) {
         max = size;
